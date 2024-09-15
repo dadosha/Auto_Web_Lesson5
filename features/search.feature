@@ -14,7 +14,7 @@ Feature: Search a course
         Given open the home page of the cinema's website
         When Go to the cinema in "2" days
         When Select film "199"
-        When Choose any "standart" location
+        When Choose any "vip" location
         When Click the 'Забронировать' button
         When Click on the 'Получить код бронирования' button
         Then Receive qr code and instructions "Покажите QR-код нашему контроллеру для подтверждения бронирования."
