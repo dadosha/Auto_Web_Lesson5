@@ -1,5 +1,5 @@
-const { clickElement, putText, getText, ChooseRandomSeat, selectSomeCountFreeSeats, isDisabled } = require("./lib/commands.js");
-const { generateName, getDateTimestamp } = require("./lib/util.js");
+const { clickElement, getText, ChooseRandomSeat, selectSomeCountFreeSeats, isDisabled } = require("./lib/commands.js");
+const { getDateTimestamp } = require("./lib/util.js");
 
 let page;
 
